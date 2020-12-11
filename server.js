@@ -12,7 +12,6 @@ var read2 = 0;
 app.use(cors());
 
 
-
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.post('/xmlIDOC', (req, res) => 
@@ -63,6 +62,7 @@ else
 }
 
 });
+app.listen(port);
+console.log(`Running on http://:${port}`);
 
-app.listen(port, () => console.log(`xml IDOC endpoint listening on port ${port}!`));
 
