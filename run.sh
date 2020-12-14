@@ -1,3 +1,4 @@
-docker build -t importser .
-docker run --publish 3000:3000 importser
+run servertest.sh
+run test.sh
+run test2.sh
 
