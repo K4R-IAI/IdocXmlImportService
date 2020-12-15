@@ -1,4 +1,4 @@
-run servertest.sh
-run test.sh
-run test2.sh
+sh servertest.sh
+sh test.sh
+sh test2.sh
 
